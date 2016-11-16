@@ -14,7 +14,7 @@
   limitations under the License.
   -->
 
-<com.ewintory.udacity.popularmovies.ui.widget.MultiSwipeRefreshLayout
+<com.burhan.udacity.popularmovies.ui.widget.MultiSwipeRefreshLayout
     android:id="@+id/multi_swipe_refresh_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -22,7 +22,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.ewintory.udacity.popularmovies.ui.widget.BetterViewAnimator
+    <com.burhan.udacity.popularmovies.ui.widget.BetterViewAnimator
         android:id="@+id/movies_animator"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,20 +38,20 @@
 
         <include layout="@layout/partial_view_loading" />
 
-        <com.ewintory.udacity.popularmovies.ui.widget.AnimatorStateView
+        <com.burhan.udacity.popularmovies.ui.widget.AnimatorStateView
             android:id="@+id/view_error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:messageImage="@drawable/egg_error"
             app:messageText="@string/view_error_message" />
 
-        <com.ewintory.udacity.popularmovies.ui.widget.AnimatorStateView
+        <com.burhan.udacity.popularmovies.ui.widget.AnimatorStateView
             android:id="@+id/view_empty"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:messageImage="@drawable/egg_empty"
             app:messageText="@string/favored_empty_message" />
 
-    </com.ewintory.udacity.popularmovies.ui.widget.BetterViewAnimator>
+    </com.burhan.udacity.popularmovies.ui.widget.BetterViewAnimator>
 
-</com.ewintory.udacity.popularmovies.ui.widget.MultiSwipeRefreshLayout>
+</com.burhan.udacity.popularmovies.ui.widget.MultiSwipeRefreshLayout>

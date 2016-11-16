@@ -15,8 +15,10 @@
   -->
 
 <resources>
+    <dimen name="dp16">16dp</dimen>
+
     <!-- Keylines -->
-    <dimen name="keyline_1">16dp</dimen>
+    <dimen name="keyline_1">32dp</dimen>
     <dimen name="keyline_1_minus_8dp">8dp</dimen>
     <dimen name="keyline_2">72dp</dimen>
     <dimen name="keyline_2_minus_16dp">56dp</dimen>
@@ -43,7 +45,7 @@
     <!-- Movie Details -->
     <item name="movie_details_cover_aspect_ratio" format="float" type="dimen">1.77</item>
     <dimen name="movie_details_poster_width">150dp</dimen>
-    <dimen name="movie_details_poster_top_margin">-16dp</dimen>
+    <dimen name="movie_details_poster_top_margin">-24dp</dimen>
     <dimen name="movie_details_poster_left_margin">16dp</dimen>
 
     <dimen name="movie_details_responsive_width">@dimen/match_parent</dimen>

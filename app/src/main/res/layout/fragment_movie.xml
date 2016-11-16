@@ -38,7 +38,7 @@
             android:clickable="true"
             android:foreground="?photoItemForeground">
 
-            <com.ewintory.udacity.popularmovies.ui.widget.AspectLockedImageView
+            <com.burhan.udacity.popularmovies.ui.widget.AspectLockedImageView
                 android:id="@+id/movie_cover"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:clipChildren="false">
 
-                <com.ewintory.udacity.popularmovies.ui.widget.AspectLockedImageView
+                <com.burhan.udacity.popularmovies.ui.widget.AspectLockedImageView
                     android:id="@+id/movie_poster"
                     android:layout_width="@dimen/movie_details_poster_width"
                     android:layout_height="match_parent"
@@ -113,7 +113,11 @@
                     android:layout_toRightOf="@id/movie_poster"
                     android:layout_toStartOf="@id/movie_favorite_button"
                     android:orientation="vertical"
-                    android:padding="@dimen/keyline_1">
+                    android:paddingLeft="@dimen/keyline_1"
+                    android:paddingRight="@dimen/keyline_1_minus_8dp"
+                    android:paddingTop="@dimen/keyline_1"
+                    android:paddingBottom="@dimen/keyline_1"
+                    >
 
                     <TextView
                         android:id="@+id/movie_title"
@@ -158,9 +162,11 @@
                 android:textSize="@dimen/text_size_medium"
                 tools:text="@string/placeholder_movie_plot" />
 
-            <include layout="@layout/partial_movie_reviews" />
 
             <include layout="@layout/partial_movie_videos" />
+
+            <include layout="@layout/partial_movie_reviews" />
+
 
         </LinearLayout>
 

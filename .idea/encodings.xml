@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ewintory/udacity/popularmovies/ui/widget/MultiSwipeRefreshLayout.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ewintory/udacity/popularmovies/utils/SelectionBuilder.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/burhan/udacity/popularmovies/ui/widget/MultiSwipeRefreshLayout.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/burhan/udacity/popularmovies/utils/SelectionBuilder.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/color/list_dropdown_foreground_color.xml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_up.png" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/movie_detail_section_separator.9.png" charset="windows-1251" />

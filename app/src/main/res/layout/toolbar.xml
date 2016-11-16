@@ -22,4 +22,14 @@
     android:layout_height="?actionBarSize"
     android:theme="@style/ActionBar.ThemeOverlay"
     app:popupTheme="@style/ActionBar.PopupThemeOverlay"
-    app:titleTextAppearance="@style/ActionBar.TitleText" />
+    app:titleTextAppearance="@style/ActionBar.TitleText" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
